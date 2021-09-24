@@ -111,7 +111,7 @@
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background-image: url('./assets/img/chicago.jpg');
+    background-image: url('https://giahao0009.github.io/the-band/assets/img/chicago.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
 }
