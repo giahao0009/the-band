@@ -1,0 +1,166 @@
+/* Tablet and mobile start */
+@media (max-width: 1023px) {
+    .place-buy-btn{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-form .send-btn {
+        width: 100%;
+        border-radius: 5px;
+        padding: 15px;
+    }
+}
+/* Tablet and mobile end */
+
+/* Tablet start */
+@media (min-width: 740px) and (max-width: 1024px) {
+    #content .content-section{
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #tour .places-list .places-item {
+        max-width: 240px;
+    }
+}
+/* Tablet end */
+
+/* Mobile start */
+@media (max-width: 739px) {
+
+    /* Header start */
+    #header{  
+        overflow: hidden;
+        transition: 0.4s;
+        animation: faceIn ease 0.8s;
+    }
+    
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav > li:nth-child(1){
+        display: inline-block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:hover{
+        background: none;
+        color: var(--while-color);
+    }
+
+    #nav li a {
+        display: block;
+    }
+
+    #nav li a:hover{
+        display: block;
+        background: none;
+        color: var(--while-color);
+    }
+
+    #nav .subnav{
+        position: initial;
+        background: #333;
+        
+    }
+
+    #nav .subnav a{
+        padding: 10px 35px;
+        border-bottom: 1px solid var(--while-color);
+        color: var(--while-color);
+    }
+
+    .search-btn{
+        display: none;
+    }
+
+    #header .mobile-menu-btn{
+        float: right;   
+        top: 0;
+        right: 0;
+        position: absolute;
+        padding: 0 20px;
+    }
+
+    #header .mobile-menu-btn:hover{
+        transition: 0.5s;
+        background-color: var(--red-color);
+    }
+
+    #header .menu-icon{
+        font-size: 16px;
+        color: #fff;
+        display: inline-block;
+        line-height: 46px;
+    }
+    /* Header end */
+
+    /* Band section start */
+    .content-section{
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #about .member-list{
+        display: inherit;
+    }
+
+    #about .member-list .member-item{
+        margin-top: 20px;
+    }
+
+    .member-list .member-item .member-img {
+        width: auto;
+    }
+    /* Band section end */
+
+    /* Tour section start */
+    #tour .places-list{
+        display: inherit;
+
+    }
+
+    #tour .places-list .places-item{
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Tour section end */
+
+    /* Contact section start */
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-mt-20{
+        margin-top: 20px;
+    }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+
+    /* Contact section end */
+}
+/* Mobile end */
+
+@keyframes faceIn {
+    from {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "web-the-band",
+  "version": "1.0.0",
+  "description": "Header\r     - NavBar\r Slider\r Content\r     - The Band\r     - The Tour\r     - Contact\r Footer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
